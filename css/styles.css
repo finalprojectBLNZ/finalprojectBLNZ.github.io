@@ -55,7 +55,7 @@
       height: 100vw;
     }
 
-     /* declare grid  */
+     /* declare grid gallery */
   .grid-layout-gallery {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -64,6 +64,7 @@
     height: 100vw;
   }
 
+  /*index box declaration*/
 
     .one {
       background-color: lightskyblue;
@@ -103,6 +104,7 @@
       text-align: center;
     }
 
+  /*gallery box declarations*/
     .Pone {
       background-color: lightskyblue;
       grid-column: 1/5;
@@ -141,6 +143,7 @@
       text-align: center;
     }
    
+  /*navigation buttons*/
     .navbtn {
       background-color: lightpink;
       padding: 0.1rem;
@@ -337,8 +340,6 @@
         display:none;
       } 
     
-      /* Nick 12/1*/
-      /*RESERVATION PAGE*/
 /**form section in reserve.html*/
 .btn {
   display:block;
@@ -411,6 +412,7 @@ input {
   width:80%;
 }
 
+/*reserve box declaration*/
 .rone {
   background-color: lightskyblue;
   grid-column: 1/5;
@@ -484,7 +486,7 @@ input {
 
 
 }
-
+/*media query for tablets and above*/
 @media screen and (min-width: 859px){
 
   /* basic styles */
@@ -543,7 +545,7 @@ input {
     height: 100vw;
   }
 
-
+/*index box declaration*/
   .one {
     background-color: lightskyblue;
     grid-column: 1/4;
@@ -581,7 +583,7 @@ input {
     padding: 20px;
     text-align: center;
   }
-
+/*gallery box declaration*/
   .Pone {
     background-color: lightskyblue;
     grid-column: 1/4;
@@ -627,7 +629,7 @@ input {
     padding: 20px;
     text-align: center;
   }
- 
+ /*nav buttons*/
   .navbtn {
     background-color: lightpink;
     padding: 0.1rem;
@@ -645,7 +647,7 @@ input {
     cursor: pointer;
     background: lightskyblue;
   }
-
+/*reservation box declarations*/
   .rone {
     background-color: lightskyblue;
     grid-column: 1/5;
@@ -881,7 +883,7 @@ input {
 }
 }
 
-
+/*media query laptop and desktop*/
 @media screen and (min-width: 1300px) {
   /* basic styles */
   body {
@@ -938,7 +940,7 @@ input {
     width: 100vw;
     height: 100vw;
   }
-   /* declare grid  */
+   /* declare grid gallery */
    .grid-layout-gallery {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -947,7 +949,7 @@ input {
     height: 100vw;
   }
 
-     /* declare grid  */
+     /* declare grid reservation */
      .grid-layout-reserve {
       display: grid;
       grid-template-columns: repeat(3,1fr);
@@ -955,7 +957,7 @@ input {
       width: 100vw;
       height: 100vw;
     }
-       /* declare grid  */
+       /* declare grid confirmation */
   .grid-layout-confirmation {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -963,7 +965,7 @@ input {
     width: 100vw;
     height: 100vw;
   }
-
+/*index box declaration*/
   .one {
     background-color: lightskyblue;
     grid-column: 1/5;
@@ -1001,7 +1003,7 @@ input {
     padding: 20px;
     text-align: center;
   }
-
+/*gallery box declaration*/
   .Pone {
     background-color: lightskyblue;
     grid-column: 1/5;
@@ -1048,6 +1050,7 @@ input {
     padding: 20px;
     text-align: center;
   }
+  /*reservation box declaration*/
   .rone {
     background-color: lightskyblue;
     grid-column: 1/5;
@@ -1086,7 +1089,7 @@ input {
     text-align: center;
   }
   
-  
+  /*nav buttons*/
  
   .navbtn {
     background-color: lightpink;
@@ -1286,3 +1289,5 @@ input {
   }
 
 }
+
+/*END*/
